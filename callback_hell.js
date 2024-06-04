@@ -1,5 +1,4 @@
-<script> 
-  // this is a call back hell 
+// this is a call back hell 
   // making icecream
   let stocks = {
   Fruits : ['strawberry','grapes','banana','apple'],
@@ -42,4 +41,3 @@ setTimeout(() => {
 order(0,production)
 // store room is our backend and kitchen is our front end
 
-  </script>
