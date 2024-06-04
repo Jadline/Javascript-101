@@ -1,4 +1,6 @@
 <script> 
+  // this is a call back hell 
+  // making icecream
   let stocks = {
   Fruits : ['strawberry','grapes','banana','apple'],
   liquid : ['water','ice'],
