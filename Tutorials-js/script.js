@@ -152,4 +152,66 @@
 //Destructuring in js
 //allows us to unpack values from a datastructure eg array and objects into distinct variables
 //arrays,objects,functions
+const foo = ['one','two','three']
+// console.log(foo[0])
+// console.log(foo[1])
+// console.log(foo[2])
 
+// const  [one,two,three] = foo;
+// console.log(one)
+// console.log(two)
+// console.log(three)
+
+// function f(){
+//     return [1,2]
+// }
+// let a,b;
+// [a,b] = f()
+// console.log(a)
+// console.log(b)
+
+// function f(){
+//     return [1,2,4]
+// }
+// const [a, ,b] = f()
+// console.log(a)
+// console.log(b)
+
+//assigning the rest of the variable
+// const [a, ...b] = ['one','two','three']
+// console.log(a)
+// console.log(b)
+// const colors = ['red','green','blue','yellow','orange']
+
+// const [color1,color2,color3] = colors
+// console.log(color1,color2,color3)
+
+//object destructuring
+// const student = {
+//     name : "jad",
+//     position : "first",
+//     rollNo : 27
+// }
+// const {name} = student;
+
+
+// const person = {
+//     name : 'john',
+//     age : 27,
+//     gender : "male",
+//     location : 'germany'
+// }
+// const {name,age,gender,location} = person
+// console.log(name,age,gender,location)
+
+// const num = {
+//     x : 100,
+//     y: 150
+// }
+// const {x : new1,y:new2} = num
+// console.log(new1)
+// console.log(new2)
+
+
+// let {a,b,...rest} = {a:23,b:200,c:300,d:450,e:500}
+// console.log(a,b,rest)
