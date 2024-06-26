@@ -92,4 +92,17 @@
 // console.log(Multiply(2,3))
 
 
-//
+//Spread operator - used to split out arrays
+// function giveMeFour(a,b,c,d){
+//     console.log("a",a)
+//     console.log("b",b)
+//     console.log("c",c)
+//     console.log("d",d)
+// }
+// const colors = ['red','green','peach','blue']
+// giveMeFour(...colors)
+
+const strNums = ['one','two','three']
+const moreStrNums = ['four','five','six']
+const concat = [...strNums,...moreStrNums] // this is the spread operator
+console.log(concat)
