@@ -102,7 +102,54 @@
 // const colors = ['red','green','peach','blue']
 // giveMeFour(...colors)
 
-const strNums = ['one','two','three']
-const moreStrNums = ['four','five','six']
-const concat = [...strNums,...moreStrNums] // this is the spread operator
-console.log(concat)
+// const strNums = ['one','two','three']
+// const moreStrNums = ['four','five','six']
+// const concat = [...strNums,...moreStrNums] // this is the spread operator
+// console.log(concat)
+// const Obj1 = {
+//     x:1,
+//     y:2
+// }
+// const Obj2 = {
+//     z : 3
+// }
+// const concat = {...Obj1,...Obj2}
+// console.log(concat)
+
+
+// let arr = [1,2,3]
+// let arr2 = [4,5]
+// const user = {
+//     name : "Jen",
+//     age : 22
+// }
+
+// let arrClone = [...arr]
+// let arr2Clone = [...arr2]
+
+// const userClone = {...user}
+
+// console.log(arrClone)
+// console.log(arr2Clone)
+// console.log(userClone)
+
+//Rest parameter - allows a function to accept an indefinite number of arguments
+//as an array,providing a way to represent variadic functions in Javascript
+// function user(...userData){
+//     console.log(userData)
+// }
+// user('jad',19,'programming','baseball')
+// function person(firstName,lastName,...hobbies){
+//     console.log(`${firstName} ${lastName}`)
+//     console.log('hobbies',hobbies)
+// }
+// person('jad','dev','cooking','photography','hiking','watching')
+// function myfunc(...params){
+//     console.log(params)
+// }
+// myfunc('web','class','extreme')
+
+//Destructuring in js
+//allows us to unpack values from a datastructure eg array and objects into distinct variables
+//arrays,objects,functions
+
