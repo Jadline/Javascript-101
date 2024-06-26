@@ -12,4 +12,4 @@ console.log(date)
 
 console.log(date.toDateString()) //converts to human readablle form wed jun 26 2024
 console.log(date.toISOString())
-console.log(date.toLocaleString())
+console.log(date.toLocaleString()) // 6/26/2024
