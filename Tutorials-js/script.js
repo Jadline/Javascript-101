@@ -215,3 +215,13 @@ const foo = ['one','two','three']
 
 // let {a,b,...rest} = {a:23,b:200,c:300,d:450,e:500}
 // console.log(a,b,rest)
+
+// const person = {
+//     name : 'john',
+//     age : 27,
+//     gender : "male",
+//     location : 'germany'
+// }
+
+// const {name:personName,age:personAge,location:personCountry} = person
+// console.log(personCountry,personName,personAge)
