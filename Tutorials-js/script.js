@@ -225,3 +225,128 @@ const foo = ['one','two','three']
 
 // const {name:personName,age:personAge,location:personCountry} = person
 // console.log(personCountry,personName,personAge)
+// const person = {
+//     name : 'john',
+//     age : 27,
+//     gender : "male",
+//     country : 'germany'
+// }
+// function printPersonInfo({name,age,country}){
+//     console.log(`Name : ${name}`)
+//     console.log(`age : ${age}`)
+//     console.log(`country : ${country}`)
+// }
+// printPersonInfo(person)
+
+// let options = {
+//     title : "my menu",
+//     items : ['item1','item2']
+// }
+
+// function showMenu({title,width : w=100,height:h=200,items:[item1,item2]}){
+//     console.log(`${title} ${w} ${h}`)
+//     console.log(item1)
+//     console.log(item2)
+// }
+// showMenu(options)
+// const songs = [
+//     {name : 'lucky you',singer : 'Jayner',duration : 4.34},
+//     {name : 'Just like you',singer:'NF',duration:3.23},
+//     {name :'Humble singer',singer :'kendrick Lamar',duration : 2.33},
+//     {name :'Old town Road',singer : 'Lil Nas x',duration : 1.43},
+//     {name : 'cold sholder',singer : 'central cee',duration : 5.23}
+// ];
+
+// const [, , {singer}] = songs
+// console.log(singer)
+
+//ternary operator
+// let personMoney = true
+// let haveMoney = personMoney === true ? "buy products" : "They should bring  money"
+// console.log(haveMoney)
+
+//for--in
+//iterates through an object
+
+// let person = {
+//     name : 'jad',
+//     age : 20,
+//     gender : 'female'
+// }
+// for(let keys in person){
+//     console.log(keys,person[keys])
+// }
+// let list  = ['one','two','three','four']
+// for(let idx in list.length){
+//     console.log(list[idx])
+    
+// }
+// for(let index in list){
+//     console.log(`${index} : ${list[index]}`)
+// }
+// const object = {
+//     a : 1,
+//     b : 2,
+//     c : 3
+// }
+
+// for(let key in object){
+//     console.log(`${key} : ${object[key]}`)
+// }
+
+//for--of loop
+// let peoples = ['jad','alex','john','brad']
+// for (let people of peoples){
+//     console.log(people)
+// }
+// const text = 'hello'
+// for(const char of text){
+//     console.log(char)
+// }
+
+// const array1 = ['a','b','c']
+// for(const letter of array1){
+//     console.log(letter)
+// }
+
+//for Each helper
+const colors = ['teal','blue','red','green']
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+// colors.forEach((color) => {
+//     console.log(color)
+// })
+// const words = ['hello','bird','table','ball']
+// words.forEach((word,index,arr) =>{
+//     arr[index] = word[0].toUpperCase() + word.substring(1)
+// })
+// console.log(words)
+
+// const numbers = [23,56,78,98,1,5]
+
+// let sum = 0
+
+// numbers.forEach((number) =>{
+//     sum += number;
+   
+// })
+// console.log(sum)
+
+// function adder(number) {
+//     numbers.forEach((number) => {
+//         sum += number;
+        
+//     })
+//     return sum
+
+// }
+// console.log(adder(numbers))
+
+let numbers = [1,2,3,45,5]
+
+let double = numbers.map((num) => {
+    return num * 2
+})
+console.log(double)
+//map will give a new array unlike the for each which will not modify the original array
+
+
